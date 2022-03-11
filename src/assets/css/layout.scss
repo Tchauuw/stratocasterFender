@@ -6,3 +6,9 @@
 body {
   background-color: var(--colorPrimary);
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+}
