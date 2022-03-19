@@ -78,6 +78,7 @@
   text-align: center;
   border-right: 0.5vw solid black;
   padding: 0 2vw;
+  width: 33%;
 }
 .history__part--industry:nth-child(3) {
   border-right: none;
@@ -87,4 +88,19 @@
 }
 .history__part--industry p {
   font-size: var(--fsMobile2);
+}
+@media screen and (min-width: 800px) {
+  .history__part {
+    height: 75vh;
+  }
+  .history__part > h2 {
+    display: none;
+  }
+  .history__part--making {
+    margin-top: 25vh;
+  }
+  .history__part--address {
+    height: 30vh;
+    margin-top: 10vh;
+  }
 }

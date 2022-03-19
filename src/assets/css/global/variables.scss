@@ -4,4 +4,8 @@
   --gold: #edc967;
   --fsMobile1: 0.75rem;
   --fsMobile2: 0.55rem;
+  @media screen and (min-width: 800px) {
+    --fsMobile1: 1rem;
+    --fsMobile2: 0.75rem;
+  }
 }

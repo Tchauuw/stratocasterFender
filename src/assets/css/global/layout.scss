@@ -24,17 +24,17 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 2%;
-
+  justify-content: space-around;
   background-color: var(--white);
+  align-items: center;
 }
 nav > a {
   color: var(--black);
   text-decoration: none;
 }
-nav .mediator {
-  height: 7.5vh;
+nav svg {
+  display: flex;
+  height: 5vh;
   width: auto;
 }
 section div {
@@ -49,8 +49,21 @@ h2 {
 p {
   font-size: var(--fsMobile1);
 }
-@media screen and (min-width: 500px) {
+.transition {
+  height: 30vh;
+  width: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(129, 129, 129, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+@media screen and (min-width: 800px) {
+  nav > svg {
+    height: 4vh;
+  }
   span {
-    display: block;
+    display: contents;
   }
 }
