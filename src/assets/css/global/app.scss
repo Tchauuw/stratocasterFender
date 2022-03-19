@@ -1,0 +1,10 @@
+@import "reset";
+@import "layout";
+@import "variables";
+@import "./../component/history";
+@import "./../component/command";
+@import "transitions";
+
+.colorMediator {
+  fill: var(--white);
+}

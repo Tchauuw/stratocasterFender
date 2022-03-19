@@ -1,0 +1,39 @@
+#command {
+  margin-top: 10vh;
+  color: var(--black);
+  background-color: var(--white);
+}
+#command p {
+  margin-top: 1vh;
+  text-align: center;
+}
+.command__part--guitar {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 2vh 1vw;
+  background-color: var(--white);
+  color: var(--black);
+}
+.command__part--article {
+  margin-right: 0.25vw;
+  margin-left: 0.25vw;
+}
+.command__part--article > a {
+  display: inline-grid;
+  font-size: var(--fsMobile2);
+}
+.command__part--stars {
+  height: 8%;
+}
+.command__part--st0 {
+  fill: #c99e32;
+}
+.command__part--st1 {
+  fill: #d6b887;
+}
+#command > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: var(--fsMobile2);
+}

@@ -1,0 +1,90 @@
+.history__part {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.history__part:first-child {
+  display: flex;
+  justify-content: center;
+  height: 82vh;
+}
+.citation {
+  font-family: "Parisienne", cursive;
+  font-size: medium;
+  text-align: center;
+  color: var(--gold);
+}
+.leo {
+  font-family: "Parisienne", cursive;
+  font-size: small;
+  text-align: end;
+  color: var(--gold);
+}
+.history__part--intro {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.history__part > p {
+  text-align: center;
+  font-size: var(--fsMobile1);
+}
+.history__part > h2 {
+  display: flex;
+  justify-content: center;
+}
+.history__part--intro > p {
+  display: flex;
+  align-items: center;
+}
+.history__part--intro > img {
+  width: 50vw;
+  height: auto;
+  margin: auto 0;
+}
+.history__part--presentation {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.history__part--presentation > img {
+  width: auto;
+  height: 25vh;
+}
+.history__part--making {
+  display: flex;
+  justify-content: center;
+}
+.material {
+  height: 0.125vh;
+  margin: 5vh 10vh;
+}
+.illustration {
+  margin: 2vh auto;
+  height: auto;
+  width: 60vw;
+}
+.history__part--address {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.history__part--address > div {
+  display: flex;
+  font-size: var(--fsMobile2);
+}
+.history__part--industry {
+  text-align: center;
+  border-right: 0.5vw solid black;
+  padding: 0 2vw;
+}
+.history__part--industry:nth-child(3) {
+  border-right: none;
+}
+.history__part--industry h3 {
+  font-size: var(--fsMobile1);
+}
+.history__part--industry p {
+  font-size: var(--fsMobile2);
+}
