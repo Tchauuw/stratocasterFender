@@ -28,10 +28,10 @@
 .history__part > p {
   text-align: center;
   font-size: var(--fsMobile1);
+  margin: 0 2vh;
 }
 .history__part > h2 {
-  display: flex;
-  justify-content: center;
+  display: none;
 }
 .history__part--intro > p {
   display: flex;
@@ -54,6 +54,7 @@
 .history__part--making {
   display: flex;
   justify-content: center;
+  height: auto;
 }
 .material {
   height: 0.125vh;
@@ -89,12 +90,22 @@
 .history__part--industry p {
   font-size: var(--fsMobile2);
 }
+@media screen and (min-width: 500px) {
+  .illustration {
+    height: 50vh;
+    width: auto;
+  }
+}
 @media screen and (min-width: 800px) {
   .history__part {
-    height: 75vh;
+    height: 100vh;
   }
   .history__part > h2 {
     display: none;
+  }
+  .history__part--intro > img {
+    height: auto;
+    width: 40vw;
   }
   .history__part--making {
     margin-top: 25vh;
@@ -102,5 +113,25 @@
   .history__part--address {
     height: 30vh;
     margin-top: 10vh;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .history__part--intro > img {
+    height: auto;
+    width: 30vw;
+  }
+  .history__part--making {
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+  }
+  .material {
+    display: none;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .history__part--intro > img {
+    height: auto;
+    width: 20vw;
   }
 }
