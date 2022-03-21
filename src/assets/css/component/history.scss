@@ -125,8 +125,18 @@
     flex-direction: row;
     margin: 2vh;
   }
+  .history__part > p {
+    display: flex;
+    align-items: center;
+  }
   .material {
     display: none;
+  }
+  .illustration {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    width: 30vw;
   }
 }
 @media screen and (min-width: 1250px) {
